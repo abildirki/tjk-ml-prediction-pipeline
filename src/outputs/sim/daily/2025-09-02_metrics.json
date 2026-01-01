@@ -1,0 +1,24 @@
+{
+    "races": 17,
+    "hit_rate_top1": 0.17647058823529413,
+    "hit_rate_top3": 0.5294117647058824,
+    "hit_rate_top5": 0.7647058823529411,
+    "surprise_winners_missed": 1,
+    "risk_breakdown": {
+        "NORMAL": {
+            "count": 14,
+            "hit1": 0.07142857142857142,
+            "hit3": 0.5
+        },
+        "R\u0130SKL\u0130": {
+            "count": 2,
+            "hit1": 0.5,
+            "hit3": 0.5
+        },
+        "S\u00dcRPR\u0130ZE_A\u00c7IK": {
+            "count": 1,
+            "hit1": 1.0,
+            "hit3": 1.0
+        }
+    }
+}

@@ -1,0 +1,519 @@
+2025-12-19 15:44:48,382 - TJKSimulator - INFO - Loading full dataset...
+2025-12-19 15:44:58,543 - TJKSimulator - INFO - Loaded 42187 rows.
+2025-12-19 15:44:58,543 - TJKSimulator - INFO - simulate_day: 2025-06-01
+2025-12-19 15:44:58,546 - TJKSimulator - INFO - Training on 5198 rows. Predicting 182 rows.
+2025-12-19 15:44:58,850 - TJKSimulator - INFO - simulate_day: 2025-06-02
+2025-12-19 15:44:58,855 - TJKSimulator - INFO - Training on 5380 rows. Predicting 168 rows.
+2025-12-19 15:44:59,152 - TJKSimulator - INFO - simulate_day: 2025-06-03
+2025-12-19 15:44:59,157 - TJKSimulator - INFO - Training on 5548 rows. Predicting 189 rows.
+2025-12-19 15:44:59,459 - TJKSimulator - INFO - Simulation Complete.
+2025-12-19 15:48:05,935 - TJKSimulator - INFO - Loading full dataset...
+2025-12-19 15:48:16,110 - TJKSimulator - INFO - Loaded 42187 rows.
+2025-12-19 15:48:16,111 - TJKSimulator - INFO - Skipping 2025-06-01 (Already done).
+2025-12-19 15:48:16,111 - TJKSimulator - INFO - Skipping 2025-06-02 (Already done).
+2025-12-19 15:48:16,112 - TJKSimulator - INFO - Skipping 2025-06-03 (Already done).
+2025-12-19 15:48:16,112 - TJKSimulator - INFO - simulate_day: 2025-06-04
+2025-12-19 15:48:16,116 - TJKSimulator - INFO - Training on 5737 rows. Predicting 156 rows.
+2025-12-19 15:48:16,427 - TJKSimulator - INFO - simulate_day: 2025-06-05
+2025-12-19 15:48:16,433 - TJKSimulator - INFO - Training on 5893 rows. Predicting 194 rows.
+2025-12-19 15:48:16,779 - TJKSimulator - INFO - Simulation Complete.
+2025-12-19 15:50:35,532 - TJKSimulator - INFO - Loading full dataset...
+2025-12-19 15:50:46,061 - TJKSimulator - INFO - Loaded 42187 rows.
+2025-12-19 15:50:46,062 - TJKSimulator - INFO - simulate_day: 2025-07-01
+2025-12-19 15:50:46,067 - TJKSimulator - INFO - Training on 10879 rows. Predicting 139 rows.
+2025-12-19 15:50:46,469 - TJKSimulator - INFO - simulate_day: 2025-07-02
+2025-12-19 15:50:46,479 - TJKSimulator - INFO - Training on 11018 rows. Predicting 187 rows.
+2025-12-19 15:50:46,972 - TJKSimulator - INFO - simulate_day: 2025-07-03
+2025-12-19 15:50:46,980 - TJKSimulator - INFO - Training on 11205 rows. Predicting 161 rows.
+2025-12-19 15:50:47,374 - TJKSimulator - INFO - simulate_day: 2025-07-04
+2025-12-19 15:50:47,382 - TJKSimulator - INFO - Training on 11366 rows. Predicting 187 rows.
+2025-12-19 15:50:47,973 - TJKSimulator - INFO - simulate_day: 2025-07-05
+2025-12-19 15:50:47,982 - TJKSimulator - INFO - Training on 11553 rows. Predicting 245 rows.
+2025-12-19 15:50:48,424 - TJKSimulator - INFO - simulate_day: 2025-07-06
+2025-12-19 15:50:48,435 - TJKSimulator - INFO - Training on 11798 rows. Predicting 195 rows.
+2025-12-19 15:50:48,894 - TJKSimulator - INFO - simulate_day: 2025-07-07
+2025-12-19 15:50:48,904 - TJKSimulator - INFO - Training on 11993 rows. Predicting 204 rows.
+2025-12-19 15:50:49,455 - TJKSimulator - INFO - simulate_day: 2025-07-08
+2025-12-19 15:50:49,466 - TJKSimulator - INFO - Training on 12197 rows. Predicting 152 rows.
+2025-12-19 15:50:49,972 - TJKSimulator - INFO - simulate_day: 2025-07-09
+2025-12-19 15:50:49,982 - TJKSimulator - INFO - Training on 12349 rows. Predicting 169 rows.
+2025-12-19 15:50:50,411 - TJKSimulator - INFO - simulate_day: 2025-07-10
+2025-12-19 15:50:50,419 - TJKSimulator - INFO - Training on 12518 rows. Predicting 154 rows.
+2025-12-19 15:50:50,909 - TJKSimulator - INFO - simulate_day: 2025-07-11
+2025-12-19 15:50:50,915 - TJKSimulator - INFO - Training on 12672 rows. Predicting 200 rows.
+2025-12-19 15:50:51,313 - TJKSimulator - INFO - simulate_day: 2025-07-12
+2025-12-19 15:50:51,327 - TJKSimulator - INFO - Training on 12872 rows. Predicting 238 rows.
+2025-12-19 15:50:51,784 - TJKSimulator - INFO - simulate_day: 2025-07-13
+2025-12-19 15:50:51,805 - TJKSimulator - INFO - Training on 13110 rows. Predicting 227 rows.
+2025-12-19 15:50:52,327 - TJKSimulator - INFO - simulate_day: 2025-07-14
+2025-12-19 15:50:52,341 - TJKSimulator - INFO - Training on 13337 rows. Predicting 186 rows.
+2025-12-19 15:50:52,790 - TJKSimulator - INFO - simulate_day: 2025-07-15
+2025-12-19 15:50:52,800 - TJKSimulator - INFO - Training on 13523 rows. Predicting 170 rows.
+2025-12-19 15:50:53,195 - TJKSimulator - INFO - simulate_day: 2025-07-16
+2025-12-19 15:50:53,204 - TJKSimulator - INFO - Training on 13693 rows. Predicting 183 rows.
+2025-12-19 15:50:53,602 - TJKSimulator - INFO - simulate_day: 2025-07-17
+2025-12-19 15:50:53,612 - TJKSimulator - INFO - Training on 13876 rows. Predicting 163 rows.
+2025-12-19 15:50:54,018 - TJKSimulator - INFO - simulate_day: 2025-07-18
+2025-12-19 15:50:54,028 - TJKSimulator - INFO - Training on 14039 rows. Predicting 169 rows.
+2025-12-19 15:50:54,414 - TJKSimulator - INFO - simulate_day: 2025-07-19
+2025-12-19 15:50:54,425 - TJKSimulator - INFO - Training on 14208 rows. Predicting 201 rows.
+2025-12-19 15:50:54,948 - TJKSimulator - INFO - simulate_day: 2025-07-20
+2025-12-19 15:50:54,957 - TJKSimulator - INFO - Training on 14409 rows. Predicting 171 rows.
+2025-12-19 15:50:55,334 - TJKSimulator - INFO - simulate_day: 2025-07-21
+2025-12-19 15:50:55,345 - TJKSimulator - INFO - Training on 14580 rows. Predicting 169 rows.
+2025-12-19 15:50:55,765 - TJKSimulator - INFO - simulate_day: 2025-07-22
+2025-12-19 15:50:55,777 - TJKSimulator - INFO - Training on 14749 rows. Predicting 180 rows.
+2025-12-19 15:50:56,210 - TJKSimulator - INFO - simulate_day: 2025-07-23
+2025-12-19 15:50:56,221 - TJKSimulator - INFO - Training on 14929 rows. Predicting 149 rows.
+2025-12-19 15:50:56,689 - TJKSimulator - INFO - simulate_day: 2025-07-24
+2025-12-19 15:50:56,699 - TJKSimulator - INFO - Training on 15078 rows. Predicting 142 rows.
+2025-12-19 15:50:57,118 - TJKSimulator - INFO - simulate_day: 2025-07-25
+2025-12-19 15:50:57,130 - TJKSimulator - INFO - Training on 15220 rows. Predicting 170 rows.
+2025-12-19 15:50:57,554 - TJKSimulator - INFO - simulate_day: 2025-07-26
+2025-12-19 15:50:57,567 - TJKSimulator - INFO - Training on 15390 rows. Predicting 216 rows.
+2025-12-19 15:50:58,072 - TJKSimulator - INFO - simulate_day: 2025-07-27
+2025-12-19 15:50:58,085 - TJKSimulator - INFO - Training on 15606 rows. Predicting 183 rows.
+2025-12-19 15:50:58,512 - TJKSimulator - INFO - simulate_day: 2025-07-28
+2025-12-19 15:50:58,524 - TJKSimulator - INFO - Training on 15789 rows. Predicting 173 rows.
+2025-12-19 15:50:59,036 - TJKSimulator - INFO - simulate_day: 2025-07-29
+2025-12-19 15:50:59,048 - TJKSimulator - INFO - Training on 15962 rows. Predicting 149 rows.
+2025-12-19 15:50:59,461 - TJKSimulator - INFO - simulate_day: 2025-07-30
+2025-12-19 15:50:59,475 - TJKSimulator - INFO - Training on 16111 rows. Predicting 168 rows.
+2025-12-19 15:51:00,026 - TJKSimulator - INFO - Simulation Complete.
+2025-12-19 15:51:11,457 - TJKSimulator - INFO - Loading full dataset...
+2025-12-19 15:51:22,533 - TJKSimulator - INFO - Loaded 42187 rows.
+2025-12-19 15:51:22,533 - TJKSimulator - INFO - simulate_day: 2025-07-01
+2025-12-19 15:51:22,539 - TJKSimulator - INFO - Training on 10879 rows. Predicting 139 rows.
+2025-12-19 15:51:23,038 - TJKSimulator - INFO - simulate_day: 2025-07-02
+2025-12-19 15:51:23,047 - TJKSimulator - INFO - Training on 11018 rows. Predicting 187 rows.
+2025-12-19 15:51:23,419 - TJKSimulator - INFO - simulate_day: 2025-07-03
+2025-12-19 15:51:23,427 - TJKSimulator - INFO - Training on 11205 rows. Predicting 161 rows.
+2025-12-19 15:51:23,811 - TJKSimulator - INFO - simulate_day: 2025-07-04
+2025-12-19 15:51:23,820 - TJKSimulator - INFO - Training on 11366 rows. Predicting 187 rows.
+2025-12-19 15:51:24,217 - TJKSimulator - INFO - simulate_day: 2025-07-05
+2025-12-19 15:51:24,226 - TJKSimulator - INFO - Training on 11553 rows. Predicting 245 rows.
+2025-12-19 15:51:24,790 - TJKSimulator - INFO - simulate_day: 2025-07-06
+2025-12-19 15:51:24,799 - TJKSimulator - INFO - Training on 11798 rows. Predicting 195 rows.
+2025-12-19 15:51:25,337 - TJKSimulator - INFO - simulate_day: 2025-07-07
+2025-12-19 15:51:25,348 - TJKSimulator - INFO - Training on 11993 rows. Predicting 204 rows.
+2025-12-19 15:51:25,875 - TJKSimulator - INFO - simulate_day: 2025-07-08
+2025-12-19 15:51:25,887 - TJKSimulator - INFO - Training on 12197 rows. Predicting 152 rows.
+2025-12-19 15:51:26,303 - TJKSimulator - INFO - simulate_day: 2025-07-09
+2025-12-19 15:51:26,313 - TJKSimulator - INFO - Training on 12349 rows. Predicting 169 rows.
+2025-12-19 15:51:26,862 - TJKSimulator - INFO - simulate_day: 2025-07-10
+2025-12-19 15:51:26,872 - TJKSimulator - INFO - Training on 12518 rows. Predicting 154 rows.
+2025-12-19 15:51:27,365 - TJKSimulator - INFO - simulate_day: 2025-07-11
+2025-12-19 15:51:27,374 - TJKSimulator - INFO - Training on 12672 rows. Predicting 200 rows.
+2025-12-19 15:51:27,803 - TJKSimulator - INFO - simulate_day: 2025-07-12
+2025-12-19 15:51:27,815 - TJKSimulator - INFO - Training on 12872 rows. Predicting 238 rows.
+2025-12-19 15:51:28,285 - TJKSimulator - INFO - simulate_day: 2025-07-13
+2025-12-19 15:51:28,299 - TJKSimulator - INFO - Training on 13110 rows. Predicting 227 rows.
+2025-12-19 15:51:28,803 - TJKSimulator - INFO - simulate_day: 2025-07-14
+2025-12-19 15:51:28,815 - TJKSimulator - INFO - Training on 13337 rows. Predicting 186 rows.
+2025-12-19 15:51:29,260 - TJKSimulator - INFO - simulate_day: 2025-07-15
+2025-12-19 15:51:29,269 - TJKSimulator - INFO - Training on 13523 rows. Predicting 170 rows.
+2025-12-19 15:51:29,676 - TJKSimulator - INFO - simulate_day: 2025-07-16
+2025-12-19 15:51:29,688 - TJKSimulator - INFO - Training on 13693 rows. Predicting 183 rows.
+2025-12-19 15:51:30,109 - TJKSimulator - INFO - simulate_day: 2025-07-17
+2025-12-19 15:51:30,122 - TJKSimulator - INFO - Training on 13876 rows. Predicting 163 rows.
+2025-12-19 15:51:30,668 - TJKSimulator - INFO - simulate_day: 2025-07-18
+2025-12-19 15:51:30,680 - TJKSimulator - INFO - Training on 14039 rows. Predicting 169 rows.
+2025-12-19 15:51:31,103 - TJKSimulator - INFO - simulate_day: 2025-07-19
+2025-12-19 15:51:31,114 - TJKSimulator - INFO - Training on 14208 rows. Predicting 201 rows.
+2025-12-19 15:51:31,539 - TJKSimulator - INFO - simulate_day: 2025-07-20
+2025-12-19 15:51:31,550 - TJKSimulator - INFO - Training on 14409 rows. Predicting 171 rows.
+2025-12-19 15:51:32,033 - TJKSimulator - INFO - simulate_day: 2025-07-21
+2025-12-19 15:51:32,045 - TJKSimulator - INFO - Training on 14580 rows. Predicting 169 rows.
+2025-12-19 15:51:32,619 - TJKSimulator - INFO - simulate_day: 2025-07-22
+2025-12-19 15:51:32,629 - TJKSimulator - INFO - Training on 14749 rows. Predicting 180 rows.
+2025-12-19 15:51:33,072 - TJKSimulator - INFO - simulate_day: 2025-07-23
+2025-12-19 15:51:33,085 - TJKSimulator - INFO - Training on 14929 rows. Predicting 149 rows.
+2025-12-19 15:51:33,601 - TJKSimulator - INFO - simulate_day: 2025-07-24
+2025-12-19 15:51:33,612 - TJKSimulator - INFO - Training on 15078 rows. Predicting 142 rows.
+2025-12-19 15:51:34,125 - TJKSimulator - INFO - simulate_day: 2025-07-25
+2025-12-19 15:51:34,137 - TJKSimulator - INFO - Training on 15220 rows. Predicting 170 rows.
+2025-12-19 15:51:34,551 - TJKSimulator - INFO - simulate_day: 2025-07-26
+2025-12-19 15:51:34,567 - TJKSimulator - INFO - Training on 15390 rows. Predicting 216 rows.
+2025-12-19 15:51:35,178 - TJKSimulator - INFO - simulate_day: 2025-07-27
+2025-12-19 15:51:35,203 - TJKSimulator - INFO - Training on 15606 rows. Predicting 183 rows.
+2025-12-19 15:51:35,661 - TJKSimulator - INFO - simulate_day: 2025-07-28
+2025-12-19 15:51:35,674 - TJKSimulator - INFO - Training on 15789 rows. Predicting 173 rows.
+2025-12-19 15:51:36,193 - TJKSimulator - INFO - simulate_day: 2025-07-29
+2025-12-19 15:51:36,204 - TJKSimulator - INFO - Training on 15962 rows. Predicting 149 rows.
+2025-12-19 15:51:36,651 - TJKSimulator - INFO - simulate_day: 2025-07-30
+2025-12-19 15:51:36,663 - TJKSimulator - INFO - Training on 16111 rows. Predicting 168 rows.
+2025-12-19 15:51:37,140 - TJKSimulator - INFO - Simulation Complete.
+2025-12-19 15:51:49,628 - TJKSimulator - INFO - Loading full dataset...
+2025-12-19 15:52:00,370 - TJKSimulator - INFO - Loaded 42187 rows.
+2025-12-19 15:52:00,371 - TJKSimulator - INFO - Skipping 2025-05-05 (Already done).
+2025-12-19 15:52:00,372 - TJKSimulator - INFO - Skipping 2025-05-06 (Already done).
+2025-12-19 15:52:00,372 - TJKSimulator - INFO - Skipping 2025-05-07 (Already done).
+2025-12-19 15:52:00,373 - TJKSimulator - INFO - Skipping 2025-05-08 (Already done).
+2025-12-19 15:52:00,374 - TJKSimulator - INFO - Skipping 2025-05-09 (Already done).
+2025-12-19 15:52:00,374 - TJKSimulator - INFO - Skipping 2025-05-10 (Already done).
+2025-12-19 15:52:00,375 - TJKSimulator - INFO - Skipping 2025-05-11 (Already done).
+2025-12-19 15:52:00,375 - TJKSimulator - INFO - Skipping 2025-05-12 (Already done).
+2025-12-19 15:52:00,376 - TJKSimulator - INFO - Skipping 2025-05-13 (Already done).
+2025-12-19 15:52:00,377 - TJKSimulator - INFO - Skipping 2025-05-14 (Already done).
+2025-12-19 15:52:00,377 - TJKSimulator - INFO - Skipping 2025-05-15 (Already done).
+2025-12-19 15:52:00,377 - TJKSimulator - INFO - Skipping 2025-05-16 (Already done).
+2025-12-19 15:52:00,378 - TJKSimulator - INFO - Skipping 2025-05-17 (Already done).
+2025-12-19 15:52:00,378 - TJKSimulator - INFO - Skipping 2025-05-18 (Already done).
+2025-12-19 15:52:00,379 - TJKSimulator - INFO - Skipping 2025-05-19 (Already done).
+2025-12-19 15:52:00,379 - TJKSimulator - INFO - Skipping 2025-05-20 (Already done).
+2025-12-19 15:52:00,380 - TJKSimulator - INFO - Skipping 2025-05-21 (Already done).
+2025-12-19 15:52:00,380 - TJKSimulator - INFO - Skipping 2025-05-22 (Already done).
+2025-12-19 15:52:00,381 - TJKSimulator - INFO - Skipping 2025-05-23 (Already done).
+2025-12-19 15:52:00,382 - TJKSimulator - INFO - Skipping 2025-05-24 (Already done).
+2025-12-19 15:52:00,382 - TJKSimulator - INFO - Skipping 2025-05-25 (Already done).
+2025-12-19 15:52:00,383 - TJKSimulator - INFO - Skipping 2025-05-26 (Already done).
+2025-12-19 15:52:00,383 - TJKSimulator - INFO - Skipping 2025-05-27 (Already done).
+2025-12-19 15:52:00,384 - TJKSimulator - INFO - Skipping 2025-05-28 (Already done).
+2025-12-19 15:52:00,385 - TJKSimulator - INFO - Skipping 2025-05-29 (Already done).
+2025-12-19 15:52:00,385 - TJKSimulator - INFO - Skipping 2025-05-30 (Already done).
+2025-12-19 15:52:00,385 - TJKSimulator - INFO - Skipping 2025-05-31 (Already done).
+2025-12-19 15:52:00,386 - TJKSimulator - INFO - Skipping 2025-06-01 (Already done).
+2025-12-19 15:52:00,386 - TJKSimulator - INFO - Skipping 2025-06-02 (Already done).
+2025-12-19 15:52:00,387 - TJKSimulator - INFO - Skipping 2025-06-03 (Already done).
+2025-12-19 15:52:00,387 - TJKSimulator - INFO - Skipping 2025-06-04 (Already done).
+2025-12-19 15:52:00,388 - TJKSimulator - INFO - Skipping 2025-06-05 (Already done).
+2025-12-19 15:52:00,388 - TJKSimulator - INFO - Skipping 2025-06-06 (Already done).
+2025-12-19 15:52:00,389 - TJKSimulator - INFO - Skipping 2025-06-07 (Already done).
+2025-12-19 15:52:00,389 - TJKSimulator - INFO - Skipping 2025-06-08 (Already done).
+2025-12-19 15:52:00,390 - TJKSimulator - INFO - Skipping 2025-06-09 (Already done).
+2025-12-19 15:52:00,390 - TJKSimulator - INFO - Skipping 2025-06-10 (Already done).
+2025-12-19 15:52:00,391 - TJKSimulator - INFO - Skipping 2025-06-11 (Already done).
+2025-12-19 15:52:00,391 - TJKSimulator - INFO - Skipping 2025-06-12 (Already done).
+2025-12-19 15:52:00,392 - TJKSimulator - INFO - Skipping 2025-06-13 (Already done).
+2025-12-19 15:52:00,392 - TJKSimulator - INFO - Skipping 2025-06-14 (Already done).
+2025-12-19 15:52:00,393 - TJKSimulator - INFO - Skipping 2025-06-15 (Already done).
+2025-12-19 15:52:00,394 - TJKSimulator - INFO - Skipping 2025-06-16 (Already done).
+2025-12-19 15:52:00,394 - TJKSimulator - INFO - Skipping 2025-06-17 (Already done).
+2025-12-19 15:52:00,395 - TJKSimulator - INFO - Skipping 2025-06-18 (Already done).
+2025-12-19 15:52:00,395 - TJKSimulator - INFO - Skipping 2025-06-19 (Already done).
+2025-12-19 15:52:00,396 - TJKSimulator - INFO - Skipping 2025-06-20 (Already done).
+2025-12-19 15:52:00,396 - TJKSimulator - INFO - Skipping 2025-06-21 (Already done).
+2025-12-19 15:52:00,397 - TJKSimulator - INFO - Skipping 2025-06-22 (Already done).
+2025-12-19 15:52:00,397 - TJKSimulator - INFO - Skipping 2025-06-23 (Already done).
+2025-12-19 15:52:00,398 - TJKSimulator - INFO - Skipping 2025-06-24 (Already done).
+2025-12-19 15:52:00,399 - TJKSimulator - INFO - Skipping 2025-06-25 (Already done).
+2025-12-19 15:52:00,399 - TJKSimulator - INFO - Skipping 2025-06-26 (Already done).
+2025-12-19 15:52:00,400 - TJKSimulator - INFO - Skipping 2025-06-27 (Already done).
+2025-12-19 15:52:00,400 - TJKSimulator - INFO - Skipping 2025-06-28 (Already done).
+2025-12-19 15:52:00,401 - TJKSimulator - INFO - Skipping 2025-06-29 (Already done).
+2025-12-19 15:52:00,401 - TJKSimulator - INFO - Skipping 2025-06-30 (Already done).
+2025-12-19 15:52:00,402 - TJKSimulator - INFO - Skipping 2025-07-01 (Already done).
+2025-12-19 15:52:00,402 - TJKSimulator - INFO - Skipping 2025-07-02 (Already done).
+2025-12-19 15:52:00,403 - TJKSimulator - INFO - Skipping 2025-07-03 (Already done).
+2025-12-19 15:52:00,403 - TJKSimulator - INFO - Skipping 2025-07-04 (Already done).
+2025-12-19 15:52:00,404 - TJKSimulator - INFO - Skipping 2025-07-05 (Already done).
+2025-12-19 15:52:00,404 - TJKSimulator - INFO - Skipping 2025-07-06 (Already done).
+2025-12-19 15:52:00,405 - TJKSimulator - INFO - Skipping 2025-07-07 (Already done).
+2025-12-19 15:52:00,405 - TJKSimulator - INFO - Skipping 2025-07-08 (Already done).
+2025-12-19 15:52:00,406 - TJKSimulator - INFO - Skipping 2025-07-09 (Already done).
+2025-12-19 15:52:00,407 - TJKSimulator - INFO - Skipping 2025-07-10 (Already done).
+2025-12-19 15:52:00,407 - TJKSimulator - INFO - Skipping 2025-07-11 (Already done).
+2025-12-19 15:52:00,408 - TJKSimulator - INFO - Skipping 2025-07-12 (Already done).
+2025-12-19 15:52:00,408 - TJKSimulator - INFO - Skipping 2025-07-13 (Already done).
+2025-12-19 15:52:00,409 - TJKSimulator - INFO - Skipping 2025-07-14 (Already done).
+2025-12-19 15:52:00,410 - TJKSimulator - INFO - Skipping 2025-07-15 (Already done).
+2025-12-19 15:52:00,410 - TJKSimulator - INFO - Skipping 2025-07-16 (Already done).
+2025-12-19 15:52:00,411 - TJKSimulator - INFO - Skipping 2025-07-17 (Already done).
+2025-12-19 15:52:00,411 - TJKSimulator - INFO - Skipping 2025-07-18 (Already done).
+2025-12-19 15:52:00,411 - TJKSimulator - INFO - Skipping 2025-07-19 (Already done).
+2025-12-19 15:52:00,412 - TJKSimulator - INFO - Skipping 2025-07-20 (Already done).
+2025-12-19 15:52:00,412 - TJKSimulator - INFO - Skipping 2025-07-21 (Already done).
+2025-12-19 15:52:00,413 - TJKSimulator - INFO - Skipping 2025-07-22 (Already done).
+2025-12-19 15:52:00,413 - TJKSimulator - INFO - Skipping 2025-07-23 (Already done).
+2025-12-19 15:52:00,414 - TJKSimulator - INFO - Skipping 2025-07-24 (Already done).
+2025-12-19 15:52:00,415 - TJKSimulator - INFO - Skipping 2025-07-25 (Already done).
+2025-12-19 15:52:00,415 - TJKSimulator - INFO - Skipping 2025-07-26 (Already done).
+2025-12-19 15:52:00,416 - TJKSimulator - INFO - Skipping 2025-07-27 (Already done).
+2025-12-19 15:52:00,417 - TJKSimulator - INFO - Skipping 2025-07-28 (Already done).
+2025-12-19 15:52:00,417 - TJKSimulator - INFO - Skipping 2025-07-29 (Already done).
+2025-12-19 15:52:00,418 - TJKSimulator - INFO - Skipping 2025-07-30 (Already done).
+2025-12-19 15:52:00,418 - TJKSimulator - INFO - simulate_day: 2025-07-31
+2025-12-19 15:52:00,426 - TJKSimulator - INFO - Training on 16279 rows. Predicting 164 rows.
+2025-12-19 15:52:00,894 - TJKSimulator - INFO - simulate_day: 2025-08-01
+2025-12-19 15:52:00,907 - TJKSimulator - INFO - Training on 16443 rows. Predicting 211 rows.
+2025-12-19 15:52:01,406 - TJKSimulator - INFO - simulate_day: 2025-08-02
+2025-12-19 15:52:01,418 - TJKSimulator - INFO - Training on 16654 rows. Predicting 249 rows.
+2025-12-19 15:52:01,920 - TJKSimulator - INFO - simulate_day: 2025-08-03
+2025-12-19 15:52:01,931 - TJKSimulator - INFO - Training on 16903 rows. Predicting 179 rows.
+2025-12-19 15:52:02,380 - TJKSimulator - INFO - simulate_day: 2025-08-04
+2025-12-19 15:52:02,392 - TJKSimulator - INFO - Training on 17082 rows. Predicting 154 rows.
+2025-12-19 15:52:02,978 - TJKSimulator - INFO - simulate_day: 2025-08-05
+2025-12-19 15:52:02,990 - TJKSimulator - INFO - Training on 17236 rows. Predicting 150 rows.
+2025-12-19 15:52:03,446 - TJKSimulator - INFO - simulate_day: 2025-08-06
+2025-12-19 15:52:03,460 - TJKSimulator - INFO - Training on 17386 rows. Predicting 173 rows.
+2025-12-19 15:52:03,930 - TJKSimulator - INFO - simulate_day: 2025-08-07
+2025-12-19 15:52:03,941 - TJKSimulator - INFO - Training on 17559 rows. Predicting 150 rows.
+2025-12-19 15:52:04,436 - TJKSimulator - INFO - simulate_day: 2025-08-08
+2025-12-19 15:52:04,449 - TJKSimulator - INFO - Training on 17709 rows. Predicting 176 rows.
+2025-12-19 15:52:04,885 - TJKSimulator - INFO - simulate_day: 2025-08-09
+2025-12-19 15:52:04,899 - TJKSimulator - INFO - Training on 17885 rows. Predicting 249 rows.
+2025-12-19 15:52:05,421 - TJKSimulator - INFO - simulate_day: 2025-08-10
+2025-12-19 15:52:05,430 - TJKSimulator - INFO - Training on 18134 rows. Predicting 168 rows.
+2025-12-19 15:52:05,865 - TJKSimulator - INFO - simulate_day: 2025-08-11
+2025-12-19 15:52:05,878 - TJKSimulator - INFO - Training on 18302 rows. Predicting 179 rows.
+2025-12-19 15:52:06,394 - TJKSimulator - INFO - simulate_day: 2025-08-12
+2025-12-19 15:52:06,406 - TJKSimulator - INFO - Training on 18481 rows. Predicting 158 rows.
+2025-12-19 15:52:06,859 - TJKSimulator - INFO - simulate_day: 2025-08-13
+2025-12-19 15:52:06,871 - TJKSimulator - INFO - Training on 18639 rows. Predicting 196 rows.
+2025-12-19 15:52:07,334 - TJKSimulator - INFO - simulate_day: 2025-08-14
+2025-12-19 15:52:07,346 - TJKSimulator - INFO - Training on 18835 rows. Predicting 166 rows.
+2025-12-19 15:52:07,870 - TJKSimulator - INFO - simulate_day: 2025-08-15
+2025-12-19 15:52:07,882 - TJKSimulator - INFO - Training on 19001 rows. Predicting 159 rows.
+2025-12-19 15:52:08,349 - TJKSimulator - INFO - simulate_day: 2025-08-16
+2025-12-19 15:52:08,361 - TJKSimulator - INFO - Training on 19160 rows. Predicting 247 rows.
+2025-12-19 15:52:08,898 - TJKSimulator - INFO - simulate_day: 2025-08-17
+2025-12-19 15:52:08,909 - TJKSimulator - INFO - Training on 19407 rows. Predicting 191 rows.
+2025-12-19 15:52:09,463 - TJKSimulator - INFO - simulate_day: 2025-08-18
+2025-12-19 15:52:09,477 - TJKSimulator - INFO - Training on 19598 rows. Predicting 159 rows.
+2025-12-19 15:52:09,955 - TJKSimulator - INFO - simulate_day: 2025-08-19
+2025-12-19 15:52:09,968 - TJKSimulator - INFO - Training on 19757 rows. Predicting 171 rows.
+2025-12-19 15:52:10,536 - TJKSimulator - INFO - simulate_day: 2025-08-20
+2025-12-19 15:52:10,549 - TJKSimulator - INFO - Training on 19928 rows. Predicting 174 rows.
+2025-12-19 15:52:11,037 - TJKSimulator - INFO - simulate_day: 2025-08-21
+2025-12-19 15:52:11,051 - TJKSimulator - INFO - Training on 20102 rows. Predicting 153 rows.
+2025-12-19 15:52:11,531 - TJKSimulator - INFO - simulate_day: 2025-08-22
+2025-12-19 15:52:11,544 - TJKSimulator - INFO - Training on 20255 rows. Predicting 163 rows.
+2025-12-19 15:52:12,156 - TJKSimulator - INFO - simulate_day: 2025-08-23
+2025-12-19 15:52:12,171 - TJKSimulator - INFO - Training on 20418 rows. Predicting 278 rows.
+2025-12-19 15:52:12,687 - TJKSimulator - INFO - simulate_day: 2025-08-24
+2025-12-19 15:52:12,702 - TJKSimulator - INFO - Training on 20696 rows. Predicting 164 rows.
+2025-12-19 15:52:13,315 - TJKSimulator - INFO - simulate_day: 2025-08-25
+2025-12-19 15:52:13,329 - TJKSimulator - INFO - Training on 20860 rows. Predicting 180 rows.
+2025-12-19 15:52:13,812 - TJKSimulator - INFO - simulate_day: 2025-08-26
+2025-12-19 15:52:13,826 - TJKSimulator - INFO - Training on 21040 rows. Predicting 171 rows.
+2025-12-19 15:52:14,373 - TJKSimulator - INFO - simulate_day: 2025-08-27
+2025-12-19 15:52:14,388 - TJKSimulator - INFO - Training on 21211 rows. Predicting 170 rows.
+2025-12-19 15:52:14,874 - TJKSimulator - INFO - simulate_day: 2025-08-28
+2025-12-19 15:52:14,888 - TJKSimulator - INFO - Training on 21381 rows. Predicting 155 rows.
+2025-12-19 15:52:15,439 - TJKSimulator - INFO - simulate_day: 2025-08-29
+2025-12-19 15:52:15,456 - TJKSimulator - INFO - Training on 21536 rows. Predicting 208 rows.
+2025-12-19 15:52:15,955 - TJKSimulator - INFO - simulate_day: 2025-08-30
+2025-12-19 15:52:15,971 - TJKSimulator - INFO - Training on 21744 rows. Predicting 245 rows.
+2025-12-19 15:52:16,545 - TJKSimulator - INFO - simulate_day: 2025-08-31
+2025-12-19 15:52:16,560 - TJKSimulator - INFO - Training on 21989 rows. Predicting 194 rows.
+2025-12-19 15:52:17,076 - TJKSimulator - INFO - simulate_day: 2025-09-01
+2025-12-19 15:52:17,091 - TJKSimulator - INFO - Training on 22183 rows. Predicting 187 rows.
+2025-12-19 15:52:17,713 - TJKSimulator - INFO - simulate_day: 2025-09-02
+2025-12-19 15:52:17,731 - TJKSimulator - INFO - Training on 22370 rows. Predicting 144 rows.
+2025-12-19 15:52:18,408 - TJKSimulator - INFO - simulate_day: 2025-09-03
+2025-12-19 15:52:18,426 - TJKSimulator - INFO - Training on 22514 rows. Predicting 185 rows.
+2025-12-19 15:52:18,942 - TJKSimulator - INFO - simulate_day: 2025-09-04
+2025-12-19 15:52:18,956 - TJKSimulator - INFO - Training on 22699 rows. Predicting 199 rows.
+2025-12-19 15:52:19,588 - TJKSimulator - INFO - simulate_day: 2025-09-05
+2025-12-19 15:52:19,604 - TJKSimulator - INFO - Training on 22898 rows. Predicting 172 rows.
+2025-12-19 15:52:20,133 - TJKSimulator - INFO - simulate_day: 2025-09-06
+2025-12-19 15:52:20,148 - TJKSimulator - INFO - Training on 23070 rows. Predicting 151 rows.
+2025-12-19 15:52:20,724 - TJKSimulator - INFO - simulate_day: 2025-09-07
+2025-12-19 15:52:20,740 - TJKSimulator - INFO - Training on 23221 rows. Predicting 179 rows.
+2025-12-19 15:52:21,280 - TJKSimulator - INFO - simulate_day: 2025-09-08
+2025-12-19 15:52:21,297 - TJKSimulator - INFO - Training on 23400 rows. Predicting 208 rows.
+2025-12-19 15:52:21,879 - TJKSimulator - INFO - simulate_day: 2025-09-09
+2025-12-19 15:52:21,896 - TJKSimulator - INFO - Training on 23608 rows. Predicting 166 rows.
+2025-12-19 15:52:22,585 - TJKSimulator - INFO - simulate_day: 2025-09-10
+2025-12-19 15:52:22,600 - TJKSimulator - INFO - Training on 23774 rows. Predicting 190 rows.
+2025-12-19 15:52:23,244 - TJKSimulator - INFO - simulate_day: 2025-09-11
+2025-12-19 15:52:23,291 - TJKSimulator - INFO - Training on 23964 rows. Predicting 154 rows.
+2025-12-19 15:52:23,855 - TJKSimulator - INFO - simulate_day: 2025-09-12
+2025-12-19 15:52:23,873 - TJKSimulator - INFO - Training on 24118 rows. Predicting 186 rows.
+2025-12-19 15:52:24,428 - TJKSimulator - INFO - simulate_day: 2025-09-13
+2025-12-19 15:52:24,445 - TJKSimulator - INFO - Training on 24304 rows. Predicting 246 rows.
+2025-12-19 15:52:25,006 - TJKSimulator - INFO - simulate_day: 2025-09-14
+2025-12-19 15:52:25,023 - TJKSimulator - INFO - Training on 24550 rows. Predicting 211 rows.
+2025-12-19 15:52:25,642 - TJKSimulator - INFO - simulate_day: 2025-09-15
+2025-12-19 15:52:25,658 - TJKSimulator - INFO - Training on 24761 rows. Predicting 211 rows.
+2025-12-19 15:52:26,176 - TJKSimulator - INFO - simulate_day: 2025-09-16
+2025-12-19 15:52:26,193 - TJKSimulator - INFO - Training on 24972 rows. Predicting 164 rows.
+2025-12-19 15:52:26,762 - TJKSimulator - INFO - simulate_day: 2025-09-17
+2025-12-19 15:52:26,779 - TJKSimulator - INFO - Training on 25136 rows. Predicting 175 rows.
+2025-12-19 15:52:27,295 - TJKSimulator - INFO - simulate_day: 2025-09-18
+2025-12-19 15:52:27,312 - TJKSimulator - INFO - Training on 25311 rows. Predicting 179 rows.
+2025-12-19 15:52:27,890 - TJKSimulator - INFO - simulate_day: 2025-09-19
+2025-12-19 15:52:27,907 - TJKSimulator - INFO - Training on 25490 rows. Predicting 180 rows.
+2025-12-19 15:52:28,440 - TJKSimulator - INFO - simulate_day: 2025-09-20
+2025-12-19 15:52:28,458 - TJKSimulator - INFO - Training on 25670 rows. Predicting 266 rows.
+2025-12-19 15:52:29,080 - TJKSimulator - INFO - simulate_day: 2025-09-21
+2025-12-19 15:52:29,098 - TJKSimulator - INFO - Training on 25936 rows. Predicting 171 rows.
+2025-12-19 15:52:29,693 - TJKSimulator - INFO - simulate_day: 2025-09-22
+2025-12-19 15:52:29,704 - TJKSimulator - INFO - Training on 26107 rows. Predicting 227 rows.
+2025-12-19 15:52:30,253 - TJKSimulator - INFO - simulate_day: 2025-09-23
+2025-12-19 15:52:30,271 - TJKSimulator - INFO - Training on 26334 rows. Predicting 139 rows.
+2025-12-19 15:52:30,850 - TJKSimulator - INFO - simulate_day: 2025-09-24
+2025-12-19 15:52:30,868 - TJKSimulator - INFO - Training on 26473 rows. Predicting 197 rows.
+2025-12-19 15:52:31,418 - TJKSimulator - INFO - simulate_day: 2025-09-25
+2025-12-19 15:52:31,436 - TJKSimulator - INFO - Training on 26670 rows. Predicting 160 rows.
+2025-12-19 15:52:32,026 - TJKSimulator - INFO - simulate_day: 2025-09-26
+2025-12-19 15:52:32,044 - TJKSimulator - INFO - Training on 26830 rows. Predicting 177 rows.
+2025-12-19 15:52:32,651 - TJKSimulator - INFO - simulate_day: 2025-09-27
+2025-12-19 15:52:32,669 - TJKSimulator - INFO - Training on 27007 rows. Predicting 257 rows.
+2025-12-19 15:52:33,244 - TJKSimulator - INFO - simulate_day: 2025-09-28
+2025-12-19 15:52:33,261 - TJKSimulator - INFO - Training on 27264 rows. Predicting 188 rows.
+2025-12-19 15:52:33,976 - TJKSimulator - INFO - simulate_day: 2025-09-29
+2025-12-19 15:52:33,994 - TJKSimulator - INFO - Training on 27452 rows. Predicting 170 rows.
+2025-12-19 15:52:34,610 - TJKSimulator - INFO - simulate_day: 2025-09-30
+2025-12-19 15:52:34,628 - TJKSimulator - INFO - Training on 27622 rows. Predicting 198 rows.
+2025-12-19 15:52:35,154 - TJKSimulator - INFO - simulate_day: 2025-10-01
+2025-12-19 15:52:35,172 - TJKSimulator - INFO - Training on 27820 rows. Predicting 189 rows.
+2025-12-19 15:52:35,742 - TJKSimulator - INFO - simulate_day: 2025-10-02
+2025-12-19 15:52:35,770 - TJKSimulator - INFO - Training on 28009 rows. Predicting 177 rows.
+2025-12-19 15:52:36,364 - TJKSimulator - INFO - simulate_day: 2025-10-03
+2025-12-19 15:52:36,383 - TJKSimulator - INFO - Training on 28186 rows. Predicting 185 rows.
+2025-12-19 15:52:36,976 - TJKSimulator - INFO - simulate_day: 2025-10-04
+2025-12-19 15:52:36,996 - TJKSimulator - INFO - Training on 28371 rows. Predicting 237 rows.
+2025-12-19 15:52:37,590 - TJKSimulator - INFO - simulate_day: 2025-10-05
+2025-12-19 15:52:37,611 - TJKSimulator - INFO - Training on 28608 rows. Predicting 164 rows.
+2025-12-19 15:52:38,311 - TJKSimulator - INFO - simulate_day: 2025-10-06
+2025-12-19 15:52:38,330 - TJKSimulator - INFO - Training on 28772 rows. Predicting 214 rows.
+2025-12-19 15:52:38,896 - TJKSimulator - INFO - simulate_day: 2025-10-07
+2025-12-19 15:52:38,916 - TJKSimulator - INFO - Training on 28986 rows. Predicting 169 rows.
+2025-12-19 15:52:39,491 - TJKSimulator - INFO - simulate_day: 2025-10-08
+2025-12-19 15:52:39,510 - TJKSimulator - INFO - Training on 29155 rows. Predicting 153 rows.
+2025-12-19 15:52:40,059 - TJKSimulator - INFO - simulate_day: 2025-10-09
+2025-12-19 15:52:40,077 - TJKSimulator - INFO - Training on 29308 rows. Predicting 181 rows.
+2025-12-19 15:52:40,666 - TJKSimulator - INFO - simulate_day: 2025-10-10
+2025-12-19 15:52:40,685 - TJKSimulator - INFO - Training on 29489 rows. Predicting 202 rows.
+2025-12-19 15:52:41,212 - TJKSimulator - INFO - simulate_day: 2025-10-11
+2025-12-19 15:52:41,232 - TJKSimulator - INFO - Training on 29691 rows. Predicting 242 rows.
+2025-12-19 15:52:41,859 - TJKSimulator - INFO - simulate_day: 2025-10-12
+2025-12-19 15:52:41,878 - TJKSimulator - INFO - Training on 29933 rows. Predicting 195 rows.
+2025-12-19 15:52:42,418 - TJKSimulator - INFO - simulate_day: 2025-10-13
+2025-12-19 15:52:42,437 - TJKSimulator - INFO - Training on 30128 rows. Predicting 215 rows.
+2025-12-19 15:52:43,005 - TJKSimulator - INFO - simulate_day: 2025-10-14
+2025-12-19 15:52:43,024 - TJKSimulator - INFO - Training on 30343 rows. Predicting 182 rows.
+2025-12-19 15:52:43,671 - TJKSimulator - INFO - simulate_day: 2025-10-15
+2025-12-19 15:52:43,691 - TJKSimulator - INFO - Training on 30525 rows. Predicting 173 rows.
+2025-12-19 15:52:44,214 - TJKSimulator - INFO - simulate_day: 2025-10-16
+2025-12-19 15:52:44,234 - TJKSimulator - INFO - Training on 30698 rows. Predicting 165 rows.
+2025-12-19 15:52:44,761 - TJKSimulator - INFO - simulate_day: 2025-10-17
+2025-12-19 15:52:44,781 - TJKSimulator - INFO - Training on 30863 rows. Predicting 179 rows.
+2025-12-19 15:52:45,389 - TJKSimulator - INFO - simulate_day: 2025-10-18
+2025-12-19 15:52:45,411 - TJKSimulator - INFO - Training on 31042 rows. Predicting 240 rows.
+2025-12-19 15:52:45,965 - TJKSimulator - INFO - simulate_day: 2025-10-19
+2025-12-19 15:52:45,986 - TJKSimulator - INFO - Training on 31282 rows. Predicting 191 rows.
+2025-12-19 15:52:46,575 - TJKSimulator - INFO - simulate_day: 2025-10-20
+2025-12-19 15:52:46,593 - TJKSimulator - INFO - Training on 31473 rows. Predicting 193 rows.
+2025-12-19 15:52:47,142 - TJKSimulator - INFO - simulate_day: 2025-10-21
+2025-12-19 15:52:47,163 - TJKSimulator - INFO - Training on 31666 rows. Predicting 182 rows.
+2025-12-19 15:52:47,831 - TJKSimulator - INFO - simulate_day: 2025-10-22
+2025-12-19 15:52:47,851 - TJKSimulator - INFO - Training on 31848 rows. Predicting 186 rows.
+2025-12-19 15:52:48,428 - TJKSimulator - INFO - simulate_day: 2025-10-23
+2025-12-19 15:52:48,450 - TJKSimulator - INFO - Training on 32034 rows. Predicting 167 rows.
+2025-12-19 15:52:49,006 - TJKSimulator - INFO - simulate_day: 2025-10-24
+2025-12-19 15:52:49,026 - TJKSimulator - INFO - Training on 32201 rows. Predicting 189 rows.
+2025-12-19 15:52:49,679 - TJKSimulator - INFO - simulate_day: 2025-10-25
+2025-12-19 15:52:49,693 - TJKSimulator - INFO - Training on 32390 rows. Predicting 238 rows.
+2025-12-19 15:52:50,243 - TJKSimulator - INFO - simulate_day: 2025-10-26
+2025-12-19 15:52:50,263 - TJKSimulator - INFO - Training on 32628 rows. Predicting 198 rows.
+2025-12-19 15:52:50,815 - TJKSimulator - INFO - simulate_day: 2025-10-27
+2025-12-19 15:52:50,838 - TJKSimulator - INFO - Training on 32826 rows. Predicting 184 rows.
+2025-12-19 15:52:51,449 - TJKSimulator - INFO - simulate_day: 2025-10-28
+2025-12-19 15:52:51,470 - TJKSimulator - INFO - Training on 33010 rows. Predicting 226 rows.
+2025-12-19 15:52:52,043 - TJKSimulator - INFO - simulate_day: 2025-10-29
+2025-12-19 15:52:52,064 - TJKSimulator - INFO - Training on 33236 rows. Predicting 156 rows.
+2025-12-19 15:52:52,634 - TJKSimulator - INFO - simulate_day: 2025-10-30
+2025-12-19 15:52:52,656 - TJKSimulator - INFO - Training on 33392 rows. Predicting 186 rows.
+2025-12-19 15:52:53,328 - TJKSimulator - INFO - simulate_day: 2025-10-31
+2025-12-19 15:52:53,351 - TJKSimulator - INFO - Training on 33578 rows. Predicting 184 rows.
+2025-12-19 15:52:54,234 - TJKSimulator - INFO - simulate_day: 2025-11-01
+2025-12-19 15:52:54,256 - TJKSimulator - INFO - Training on 33762 rows. Predicting 238 rows.
+2025-12-19 15:52:54,877 - TJKSimulator - INFO - simulate_day: 2025-11-02
+2025-12-19 15:52:54,896 - TJKSimulator - INFO - Training on 34000 rows. Predicting 196 rows.
+2025-12-19 15:52:55,515 - TJKSimulator - INFO - simulate_day: 2025-11-03
+2025-12-19 15:52:55,535 - TJKSimulator - INFO - Training on 34196 rows. Predicting 199 rows.
+2025-12-19 15:52:56,128 - TJKSimulator - INFO - simulate_day: 2025-11-04
+2025-12-19 15:52:56,149 - TJKSimulator - INFO - Training on 34395 rows. Predicting 183 rows.
+2025-12-19 15:52:56,750 - TJKSimulator - INFO - simulate_day: 2025-11-05
+2025-12-19 15:52:56,773 - TJKSimulator - INFO - Training on 34578 rows. Predicting 157 rows.
+2025-12-19 15:52:57,338 - TJKSimulator - INFO - simulate_day: 2025-11-06
+2025-12-19 15:52:57,359 - TJKSimulator - INFO - Training on 34735 rows. Predicting 153 rows.
+2025-12-19 15:52:57,953 - TJKSimulator - INFO - simulate_day: 2025-11-07
+2025-12-19 15:52:57,977 - TJKSimulator - INFO - Training on 34888 rows. Predicting 202 rows.
+2025-12-19 15:52:58,576 - TJKSimulator - INFO - simulate_day: 2025-11-08
+2025-12-19 15:52:58,599 - TJKSimulator - INFO - Training on 35090 rows. Predicting 237 rows.
+2025-12-19 15:52:59,201 - TJKSimulator - INFO - simulate_day: 2025-11-09
+2025-12-19 15:52:59,224 - TJKSimulator - INFO - Training on 35327 rows. Predicting 187 rows.
+2025-12-19 15:52:59,869 - TJKSimulator - INFO - simulate_day: 2025-11-10
+2025-12-19 15:52:59,891 - TJKSimulator - INFO - Training on 35514 rows. Predicting 217 rows.
+2025-12-19 15:53:00,523 - TJKSimulator - INFO - simulate_day: 2025-11-11
+2025-12-19 15:53:00,545 - TJKSimulator - INFO - Training on 35731 rows. Predicting 198 rows.
+2025-12-19 15:53:01,178 - TJKSimulator - INFO - simulate_day: 2025-11-12
+2025-12-19 15:53:01,201 - TJKSimulator - INFO - Training on 35929 rows. Predicting 150 rows.
+2025-12-19 15:53:01,819 - TJKSimulator - INFO - simulate_day: 2025-11-13
+2025-12-19 15:53:01,842 - TJKSimulator - INFO - Training on 36079 rows. Predicting 168 rows.
+2025-12-19 15:53:02,430 - TJKSimulator - INFO - simulate_day: 2025-11-14
+2025-12-19 15:53:02,452 - TJKSimulator - INFO - Training on 36247 rows. Predicting 207 rows.
+2025-12-19 15:53:03,132 - TJKSimulator - INFO - simulate_day: 2025-11-15
+2025-12-19 15:53:03,162 - TJKSimulator - INFO - Training on 36454 rows. Predicting 248 rows.
+2025-12-19 15:53:03,793 - TJKSimulator - INFO - simulate_day: 2025-11-16
+2025-12-19 15:53:03,817 - TJKSimulator - INFO - Training on 36702 rows. Predicting 215 rows.
+2025-12-19 15:53:04,432 - TJKSimulator - INFO - simulate_day: 2025-11-17
+2025-12-19 15:53:04,455 - TJKSimulator - INFO - Training on 36917 rows. Predicting 176 rows.
+2025-12-19 15:53:05,116 - TJKSimulator - INFO - simulate_day: 2025-11-18
+2025-12-19 15:53:05,140 - TJKSimulator - INFO - Training on 37093 rows. Predicting 147 rows.
+2025-12-19 15:53:05,767 - TJKSimulator - INFO - simulate_day: 2025-11-19
+2025-12-19 15:53:05,792 - TJKSimulator - INFO - Training on 37240 rows. Predicting 154 rows.
+2025-12-19 15:53:06,425 - TJKSimulator - INFO - simulate_day: 2025-11-20
+2025-12-19 15:53:06,449 - TJKSimulator - INFO - Training on 37394 rows. Predicting 151 rows.
+2025-12-19 15:53:07,076 - TJKSimulator - INFO - simulate_day: 2025-11-21
+2025-12-19 15:53:07,103 - TJKSimulator - INFO - Training on 37545 rows. Predicting 144 rows.
+2025-12-19 15:53:07,850 - TJKSimulator - INFO - simulate_day: 2025-11-22
+2025-12-19 15:53:07,874 - TJKSimulator - INFO - Training on 37689 rows. Predicting 180 rows.
+2025-12-19 15:53:08,535 - TJKSimulator - INFO - simulate_day: 2025-11-23
+2025-12-19 15:53:08,558 - TJKSimulator - INFO - Training on 37869 rows. Predicting 157 rows.
+2025-12-19 15:53:09,219 - TJKSimulator - INFO - simulate_day: 2025-11-24
+2025-12-19 15:53:09,243 - TJKSimulator - INFO - Training on 38026 rows. Predicting 211 rows.
+2025-12-19 15:53:09,894 - TJKSimulator - INFO - simulate_day: 2025-11-25
+2025-12-19 15:53:09,919 - TJKSimulator - INFO - Training on 38237 rows. Predicting 178 rows.
+2025-12-19 15:53:10,577 - TJKSimulator - INFO - simulate_day: 2025-11-26
+2025-12-19 15:53:10,601 - TJKSimulator - INFO - Training on 38415 rows. Predicting 160 rows.
+2025-12-19 15:53:11,332 - TJKSimulator - INFO - simulate_day: 2025-11-27
+2025-12-19 15:53:11,359 - TJKSimulator - INFO - Training on 38575 rows. Predicting 139 rows.
+2025-12-19 15:53:12,017 - TJKSimulator - INFO - simulate_day: 2025-11-28
+2025-12-19 15:53:12,043 - TJKSimulator - INFO - Training on 38714 rows. Predicting 136 rows.
+2025-12-19 15:53:12,737 - TJKSimulator - INFO - simulate_day: 2025-11-29
+2025-12-19 15:53:12,762 - TJKSimulator - INFO - Training on 38850 rows. Predicting 152 rows.
+2025-12-19 15:53:13,508 - TJKSimulator - INFO - simulate_day: 2025-11-30
+2025-12-19 15:53:13,533 - TJKSimulator - INFO - Training on 39002 rows. Predicting 176 rows.
+2025-12-19 15:53:14,197 - TJKSimulator - INFO - simulate_day: 2025-12-01
+2025-12-19 15:53:14,221 - TJKSimulator - INFO - Training on 39178 rows. Predicting 181 rows.
+2025-12-19 15:53:14,891 - TJKSimulator - INFO - simulate_day: 2025-12-02
+2025-12-19 15:53:14,916 - TJKSimulator - INFO - Training on 39359 rows. Predicting 177 rows.
+2025-12-19 15:53:15,595 - TJKSimulator - INFO - simulate_day: 2025-12-03
+2025-12-19 15:53:15,624 - TJKSimulator - INFO - Training on 39536 rows. Predicting 185 rows.
+2025-12-19 15:53:16,354 - TJKSimulator - INFO - simulate_day: 2025-12-04
+2025-12-19 15:53:16,379 - TJKSimulator - INFO - Training on 39721 rows. Predicting 172 rows.
+2025-12-19 15:53:17,071 - TJKSimulator - INFO - simulate_day: 2025-12-05
+2025-12-19 15:53:17,089 - TJKSimulator - INFO - Training on 39893 rows. Predicting 135 rows.
+2025-12-19 15:53:17,779 - TJKSimulator - INFO - simulate_day: 2025-12-06
+2025-12-19 15:53:17,804 - TJKSimulator - INFO - Training on 40028 rows. Predicting 169 rows.
+2025-12-19 15:53:18,476 - TJKSimulator - INFO - simulate_day: 2025-12-07
+2025-12-19 15:53:18,507 - TJKSimulator - INFO - Training on 40197 rows. Predicting 163 rows.
+2025-12-19 15:53:19,234 - TJKSimulator - INFO - simulate_day: 2025-12-08
+2025-12-19 15:53:19,258 - TJKSimulator - INFO - Training on 40360 rows. Predicting 173 rows.
+2025-12-19 15:53:20,065 - TJKSimulator - INFO - simulate_day: 2025-12-09
+2025-12-19 15:53:20,099 - TJKSimulator - INFO - Training on 40533 rows. Predicting 137 rows.
+2025-12-19 15:53:20,840 - TJKSimulator - INFO - simulate_day: 2025-12-10
+2025-12-19 15:53:20,867 - TJKSimulator - INFO - Training on 40670 rows. Predicting 164 rows.
+2025-12-19 15:53:21,593 - TJKSimulator - INFO - simulate_day: 2025-12-11
+2025-12-19 15:53:21,621 - TJKSimulator - INFO - Training on 40834 rows. Predicting 143 rows.
+2025-12-19 15:53:22,369 - TJKSimulator - INFO - simulate_day: 2025-12-12
+2025-12-19 15:53:22,396 - TJKSimulator - INFO - Training on 40977 rows. Predicting 126 rows.
+2025-12-19 15:53:23,185 - TJKSimulator - INFO - simulate_day: 2025-12-13
+2025-12-19 15:53:23,212 - TJKSimulator - INFO - Training on 41103 rows. Predicting 126 rows.
+2025-12-19 15:53:23,991 - TJKSimulator - INFO - simulate_day: 2025-12-14
+2025-12-19 15:53:24,018 - TJKSimulator - INFO - Training on 41229 rows. Predicting 167 rows.
+2025-12-19 15:53:24,803 - TJKSimulator - INFO - simulate_day: 2025-12-15
+2025-12-19 15:53:24,828 - TJKSimulator - INFO - Training on 41396 rows. Predicting 163 rows.
+2025-12-19 15:53:25,540 - TJKSimulator - INFO - simulate_day: 2025-12-16
+2025-12-19 15:53:25,567 - TJKSimulator - INFO - Training on 41559 rows. Predicting 183 rows.
+2025-12-19 15:53:26,346 - TJKSimulator - INFO - simulate_day: 2025-12-17
+2025-12-19 15:53:26,373 - TJKSimulator - INFO - Training on 41742 rows. Predicting 162 rows.
+2025-12-19 15:53:27,142 - TJKSimulator - INFO - simulate_day: 2025-12-18
+2025-12-19 15:53:27,168 - TJKSimulator - INFO - Training on 41904 rows. Predicting 156 rows.
+2025-12-19 15:53:27,947 - TJKSimulator - INFO - simulate_day: 2025-12-19
+2025-12-19 15:53:27,974 - TJKSimulator - INFO - Training on 42060 rows. Predicting 127 rows.
+2025-12-19 15:53:28,765 - TJKSimulator - INFO - Simulation Complete.

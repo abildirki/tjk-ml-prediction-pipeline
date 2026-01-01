@@ -1,0 +1,405 @@
+{
+    "date": "2025-12-19",
+    "chaos_index": 0.21428571428571427,
+    "summary": "Chaos Level: 21.4% (3/14 races risky)",
+    "races": [
+        {
+            "city": "Bursa",
+            "race_no": 1,
+            "risk_label": "NORMAL",
+            "entropy": 1.8310614631748088,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "MISS ECDAD",
+                    "jockey": "A.MEH.ALTIN AP",
+                    "score": 0.3127244062721729,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "WINGS OF TIME",
+                    "jockey": "M.BAĞ AP",
+                    "score": 0.2805800899863243,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 2,
+            "risk_label": "NORMAL",
+            "entropy": 2.0663276670523665,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "ORGANIZATION",
+                    "jockey": "C.ALTUN",
+                    "score": 0.2412101879715919,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "PROBALA",
+                    "jockey": "N.ŞEN",
+                    "score": 0.2393113777041435,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 3,
+            "risk_label": "RİSKLİ",
+            "entropy": 2.344318357891059,
+            "strategy": "RİSKLİ (Geniş Defans / 4 At – Kaos Kapsaması)",
+            "horses": [
+                {
+                    "horse_name": "TILISIM",
+                    "jockey": "E.D.ÖKTEN AP",
+                    "score": 0.2042938180267811,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "GÜROBASI",
+                    "jockey": "Ç.TAŞCI AP",
+                    "score": 0.1680600371211767,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "ERVANUR",
+                    "jockey": "B.ÇETİN AP",
+                    "score": 0.1669294081628322,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "AYDINEFESİ",
+                    "jockey": "O.YILDIZ",
+                    "score": 0.1566087234765291,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 4,
+            "risk_label": "RİSKLİ",
+            "entropy": 2.225526487618257,
+            "strategy": "RİSKLİ (Geniş Defans / 4 At – Kaos Kapsaması)",
+            "horses": [
+                {
+                    "horse_name": "GÜMÜŞBİKE",
+                    "jockey": "A.YILDIZ",
+                    "score": 0.2224992103874683,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "ECEDURU",
+                    "jockey": "MAHS.TURAN",
+                    "score": 0.1915561687201261,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "KOŞBAŞAR",
+                    "jockey": "H.TURAN AP",
+                    "score": 0.1840098399668931,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "MAVİ LADİN",
+                    "jockey": "A.MEH.ALTIN AP",
+                    "score": 0.1799205828458071,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 5,
+            "risk_label": "NORMAL",
+            "entropy": 2.0017086723199444,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "DEMRENİN KIZI",
+                    "jockey": "O.YILDIZ",
+                    "score": 0.3355228155851364,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "SERT KALELİ",
+                    "jockey": "S.KAYA",
+                    "score": 0.2578696012496948,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 6,
+            "risk_label": "NORMAL",
+            "entropy": 1.9782760866816251,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "ALONE WOLF",
+                    "jockey": "A.YILDIZ",
+                    "score": 0.2794217698276043,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "COLTON",
+                    "jockey": "S.KAYA",
+                    "score": 0.2617330364882946,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "Bursa",
+            "race_no": 7,
+            "risk_label": "NORMAL",
+            "entropy": 2.0656738701573696,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "SARIYAZMALIM",
+                    "jockey": "H.ALTIN",
+                    "score": 0.3361337929964065,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "KURTÇAKIZ",
+                    "jockey": "O.YILDIZ",
+                    "score": 0.1533542081713676,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 1,
+            "risk_label": "NORMAL",
+            "entropy": 1.7046820062235823,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "IMMORTAL PACIFIC",
+                    "jockey": "N.AVCİ",
+                    "score": 0.3134690329432487,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "ÇAVDARLI",
+                    "jockey": "Ö.F.ÖZEN AP",
+                    "score": 0.269644820690155,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 2,
+            "risk_label": "NORMAL",
+            "entropy": 1.9807716113341869,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "LAST FORCE",
+                    "jockey": "M.KEÇECİ AP",
+                    "score": 0.3194190174341201,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "YİĞENİM NEHİR",
+                    "jockey": "H.ŞİMŞEK",
+                    "score": 0.2897667683660984,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 3,
+            "risk_label": "RİSKLİ",
+            "entropy": 2.2568522343431208,
+            "strategy": "RİSKLİ (Geniş Defans / 4 At – Kaos Kapsaması)",
+            "horses": [
+                {
+                    "horse_name": "MR MONK",
+                    "jockey": "V.ABİŞ",
+                    "score": 0.2695793189108372,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "KRAL DAYI",
+                    "jockey": "M.M.BİLGİN",
+                    "score": 0.2561057791113853,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "EVERYTHING ALRIGHT",
+                    "jockey": "M.KAYA",
+                    "score": 0.2542016595602036,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "MASTERCLASSMAN",
+                    "jockey": "M.ÇİÇEK",
+                    "score": 0.226370008289814,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 4,
+            "risk_label": "NORMAL",
+            "entropy": 1.9849839103970375,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "AVANOS EFESİ",
+                    "jockey": "M.ÇİÇEK",
+                    "score": 0.3296113885939121,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "ÇÖL FATİHİ",
+                    "jockey": "S.AKŞIN AP",
+                    "score": 0.2413214452564716,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 5,
+            "risk_label": "NORMAL",
+            "entropy": 1.9199904087611186,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "ONURLU BERK",
+                    "jockey": "N.AVCİ",
+                    "score": 0.3526058301329613,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "ŞİRO ÇAYI",
+                    "jockey": "Ö.F.ÖZEN AP",
+                    "score": 0.3460047274827957,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 6,
+            "risk_label": "NORMAL",
+            "entropy": 1.6531861226097695,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "IMPASSABLE CASTLE",
+                    "jockey": "N.AVCİ",
+                    "score": 0.3529669687151909,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "REİS",
+                    "jockey": "M.M.BİLGİN",
+                    "score": 0.2626755774021149,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        },
+        {
+            "city": "İzmir",
+            "race_no": 7,
+            "risk_label": "NORMAL",
+            "entropy": 1.9239128529380496,
+            "strategy": "NORMAL (İlk 2 At)",
+            "horses": [
+                {
+                    "horse_name": "KÜLÜNÇ AĞASI",
+                    "jockey": "V.ABİŞ",
+                    "score": 0.3256829299032688,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                },
+                {
+                    "horse_name": "SARMAN RÜZGARI",
+                    "jockey": "N.AVCİ",
+                    "score": 0.2827381633222103,
+                    "rationale": [
+                        "Genel model tercihi."
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "period_start": "2025-06-01",
+    "period_end": "2025-12-19",
+    "total_days": 177,
+    "total_races": 3280,
+    "global_hit_rate_1": 0.2420731707317073,
+    "global_hit_rate_3": 0.5570121951219512,
+    "worst_day_hit3": 0.23529411764705882,
+    "best_day_hit3": 0.8823529411764706,
+    "risk_breakdown": {
+        "BANKO": {
+            "count": 4,
+            "hits1": 2.0,
+            "hits3": 4.0
+        },
+        "NORMAL": {
+            "count": 2001,
+            "hits1": 528.0,
+            "hits3": 1244.0
+        },
+        "R\u0130SKL\u0130": {
+            "count": 914,
+            "hits1": 164.0,
+            "hits3": 391.0
+        },
+        "S\u00dcRPR\u0130ZE_A\u00c7IK": {
+            "count": 271,
+            "hits1": 78.0,
+            "hits3": 140.0
+        }
+    }
+}

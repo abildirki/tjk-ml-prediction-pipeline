@@ -1,0 +1,7 @@
+{
+    "races": 17,
+    "hit_rate_top1": 0.17647058823529413,
+    "hit_rate_top3": 0.47058823529411764,
+    "hit_rate_top5": 0.7647058823529411,
+    "surprise_winners_missed": 3
+}
