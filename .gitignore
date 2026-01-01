@@ -6,3 +6,12 @@ __pycache__/
 *.db
 *.csv
 *.parquet
+# build artifacts
+dist/
+build/
+*.exe
+
+# outputs/logs
+outputs/
+log*.txt
+
