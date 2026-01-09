@@ -13,7 +13,7 @@ FEATURE_COLS = [
     # Relative
     'relative_weight', 'relative_hp', 'hp_rank_in_race', 'field_size',
     # Raw
-    'weight', 'hp'
+    'weight_kg', 'hp' # Changed 'weight' to 'weight_kg' to match DB/Dataset
 ]
 
 TARGET_COL = 'is_top3' # Or is_win
@@ -76,39 +76,42 @@ def train_win_model(train_df):
 
 def train_sp_model(train_df):
     """
-    Target: Rank == 1 AND AGF Rank >= 4 (Surprise Winner)
-    Goal: Identify 'dark horses'.
+    Target: Rank == 1 AND AGF < 5 (Surprise Winner)
+    Goal: Identify 'dark horses' (Low AGF winning horses).
+
+    Definition of Surprise:
+    - Winner (Rank = 1)
+    - AGF < 5.0 (Low odds/probability according to public)
     """
     X = train_df[FEATURE_COLS].copy()
     
-    # Calculate AGF Rank for labeling
-    # Note: We need grouping to get rank.
-    # But for simplicity, let's assume AGF < 5.0 (Low odds) vs > 5.0?
-    # Or strict 'agf_rank'. 
+    # Definition of "Surprise": Winner AND Low AGF (e.g. < 5.0)
+    # Note: AGF is usually 0-100 (percentage points usually sum to 100 per race).
+    # AGF 5 means 5% win chance implied by public.
+    SURPRISE_AGF_THRESHOLD = 5.0
     
-    # Let's derive agf_rank quickly
-    # This might be slow if we groupby every time.
-    # Vectorized check: AGF < 10% (approx < 10.0 value? No AGF is prob * 100 often? Or implied?)
-    # In dataset AGF seems to be 0-100 score? 
-    # DNA Analysis showed Expected AGF Mean ~32, Surprise ~10.
-    # So AGF < 15 is a reasonable cutoff for "Non-Favorite".
-    
-    # Proxy Target: Winner AND AGF < 15.0
     is_winner = (train_df['rank'] == 1)
-    is_low_agf = (train_df['agf'] < 15.0) 
-    # Wait, AGF 10 means 10%? DNA said 10.52 vs 32.67.
-    # 32% win prob is high. 10% is low.
+    is_low_agf = (train_df['agf'] < SURPRISE_AGF_THRESHOLD)
     
     y = (is_winner & is_low_agf).astype(int)
     
-    # SP Model needs to find needles in haystack. High class imbalance.
-    scale_pos_weight = (len(y) - y.sum()) / y.sum() if y.sum() > 0 else 1.0
+    # Handle Class Imbalance
+    # Surprise winners are rare.
+    pos_count = y.sum()
+    neg_count = len(y) - pos_count
+    scale_pos_weight = neg_count / pos_count if pos_count > 0 else 1.0
+
+    print(f"  > SP Model Training: {pos_count} surprises out of {len(y)} samples.")
     
     model = xgb.XGBClassifier(
-        n_estimators=100, max_depth=3, learning_rate=0.05, # Shallower tree for stability
-        objective='binary:logistic', eval_metric='logloss',
-        use_label_encoder=False, tree_method='hist',
-        scale_pos_weight=scale_pos_weight # Handle imbalance
+        n_estimators=100,
+        max_depth=3, # Shallower tree to prevent overfitting on noise
+        learning_rate=0.05,
+        objective='binary:logistic',
+        eval_metric='logloss',
+        use_label_encoder=False,
+        tree_method='hist',
+        scale_pos_weight=scale_pos_weight # Critical for finding rare events
     )
     model.fit(X, y)
     return model
