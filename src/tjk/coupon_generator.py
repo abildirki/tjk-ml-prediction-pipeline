@@ -100,60 +100,47 @@ class CouponGenerator:
                 top1 = runners[0]
                 N = len(runners)
                 
-                # Logic for Banko / Risk based on ML Probability
-                # Thresholds can be tuned
                 win_prob = top1['prob_win']
-                place_prob = top1['prob_place']
-                
                 gap = 0
                 if N > 1:
                     gap = win_prob - runners[1]['prob_win']
                 
                 # Banko Condition: High Win Prob + Good Gap
-                is_banko = (win_prob > 0.40 and gap > 0.15) or (win_prob > 0.50)
+                is_banko = (win_prob > 0.55) or (win_prob > 0.45 and gap > 0.25)
                 
                 if is_banko:
                     if banko_cand is None or win_prob > banko_cand['prob']:
                         banko_cand = {'name': top1['horse_name'], 'leg': leg, 'prob': win_prob}
                 
-                # Risk Condition: Low Win Prob for favorite
+                # Risk Condition
                 if win_prob < 0.25:
-                    seq_risky.append(f"Ayak {leg} (Fav %{win_prob*100:.0f})")
+                    seq_risky.append(f"Ayak {leg}")
 
-                # Selection Logic
-                # Eco: Top 2-3 horses based on prob sum coverage?
-                # Simple Logic:
-                # Eco: Take horses until cumulative win prob > 50% or max 3-4 horses
-                # Wide: Take horses until cumulative win prob > 80% or max 6-8 horses
-
-                def select_horses(threshold, max_h):
-                    selected = []
-                    cum_prob = 0
-                    for r in runners:
-                        selected.append(r['horse_name'])
-                        cum_prob += r['prob_win']
-                        if cum_prob > threshold or len(selected) >= max_h:
-                            break
-                    # Always include Surprise Candidates in Wide if not selected
-                    # Surprise def: prob_sp > 0.5
-                    return selected
-
-                # Eco selection
-                eco_sel = select_horses(0.60, 3)
-                if is_banko and banko_cand['leg'] == leg:
-                     eco_sel = [banko_cand['name']]
+                # --- STATIC COVERAGE LOGIC (Robust) ---
+                # Eco: Top 4
+                eco_sel = []
+                if is_banko:
+                    eco_sel = [top1['horse_name']]
+                else:
+                    take_n = min(4, N)
+                    eco_sel = [r['horse_name'] for r in runners[:take_n]]
                      
-                # Wide selection
-                wide_sel = select_horses(0.85, 5)
-                # Add High Surprise Candidates to Wide
-                for r in runners:
-                    if r.get('prob_sp', 0) > 0.60 and r['horse_name'] not in wide_sel:
-                        wide_sel.append(r['horse_name'] + "⚡")
+                # Wide: Top 6 + Surprises
+                wide_sel = []
+                if is_banko:
+                    wide_sel = [top1['horse_name']]
+                else:
+                    take_n_wide = min(6, N)
+                    base_sel = [r['horse_name'] for r in runners[:take_n_wide]]
+
+                    # Add Surprises (SP Prob > 40%)
+                    surprises = [r['horse_name'] + "⚡" for r in runners if r.get('prob_sp', 0) > 0.4]
+                    wide_sel = list(set(base_sel + surprises))
 
                 eco_coupon.append(eco_sel)
                 wide_coupon.append(wide_sel)
 
-            # Apply Best Banko to Coupons
+            # Apply Best Banko
             banko_msg = "Yok"
             if banko_cand:
                 b_leg = banko_cand['leg']

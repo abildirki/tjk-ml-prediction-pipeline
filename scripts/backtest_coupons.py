@@ -37,30 +37,40 @@ def generate_coupon_for_race_group(race_data, race_nos):
         runners = race_data[race_data['race_no'] == r_no].copy()
         runners = runners.sort_values('prob_win', ascending=False)
 
-        # Banko Logic
+        N = len(runners)
         top1 = runners.iloc[0]
         win_prob = top1['prob_win']
 
-        is_banko = win_prob > 0.45 # Threshold
+        gap = 0
+        if N > 1:
+            gap = win_prob - runners.iloc[1]['prob_win']
 
-        # Eco Selection
+        # --- ROBUST BANKO LOGIC ---
+        # Very Strict Banko
+        is_banko = (win_prob > 0.55) or (win_prob > 0.45 and gap > 0.25)
+
+        # Eco Selection (Top N)
         eco_sel = []
         if is_banko:
             eco_sel = [top1['horse_name']]
         else:
-            # Take top 3
-            eco_sel = runners.iloc[:3]['horse_name'].tolist()
+            # Take Top 4 Horses (Static Coverage for Stability)
+            # If field size < 4, take all
+            take_n = min(4, N)
+            eco_sel = runners.iloc[:take_n]['horse_name'].tolist()
 
-        # Wide Selection
+        # Wide Selection (Top N + Surprises)
         wide_sel = []
         if is_banko:
             wide_sel = [top1['horse_name']]
         else:
-            # Take top 5 + Surprise
-            base = runners.iloc[:5]['horse_name'].tolist()
-            # Add surprise
-            surprises = runners[runners['prob_sp'] > 0.5]['horse_name'].tolist()
-            wide_sel = list(set(base + surprises))
+            # Take Top 6 Horses
+            take_n_wide = min(6, N)
+            base_sel = runners.iloc[:take_n_wide]['horse_name'].tolist()
+
+            # Add ALL Potential Surprises (High SP Prob)
+            surprises = runners[runners['prob_sp'] > 0.4]['horse_name'].tolist()
+            wide_sel = list(set(base_sel + surprises))
 
         eco_legs.append(eco_sel)
         wide_legs.append(wide_sel)
@@ -73,7 +83,7 @@ def generate_coupon_for_race_group(race_data, race_nos):
         runners = race_data[race_data['race_no'] == r_no]
         winner = runners[runners['rank'] == 1]
         if winner.empty:
-            continue # Race cancelled or no result?
+            continue
 
         winner_name = winner.iloc[0]['horse_name']
 
@@ -82,8 +92,7 @@ def generate_coupon_for_race_group(race_data, race_nos):
         if winner_name not in wide_legs[i]:
             wide_win = False
 
-    # Cost (approx 1 unit per combination)
-    # Combinations = len(leg1) * len(leg2) ...
+    # Cost
     eco_cost = np.prod([len(l) for l in eco_legs])
     wide_cost = np.prod([len(l) for l in wide_legs])
 
@@ -111,7 +120,7 @@ def backtest_coupons():
 
     # Group by Date & City
     for (d, city), day_data in test_df.groupby(['race_date', 'city']):
-        # Find 6-Ganyan legs (e.g. 1-6 or 4-9)
+        # Find 6-Ganyan legs
         races = sorted(day_data['race_no'].unique())
 
         target_legs = []
@@ -122,7 +131,7 @@ def backtest_coupons():
         elif len(races) >= 6:
             target_legs = races[-6:]
         else:
-            continue # Not enough races
+            continue
 
         # Generate & Check
         eco_w, wide_w, eco_c, wide_c = generate_coupon_for_race_group(day_data, target_legs)
