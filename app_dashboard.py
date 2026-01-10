@@ -12,91 +12,137 @@ if "src" not in sys.path:
 from tjk.coupon_generator import CouponGenerator
 from tjk.ml.inference import get_predictions_for_date
 
-st.set_page_config(page_title="TJK AI V2", page_icon="🏇", layout="wide")
+st.set_page_config(
+    page_title="TJK AI Pro",
+    page_icon="🏇",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-st.title("🏇 TJK Yapay Zeka Tahmin Sistemi v2.0")
-st.markdown("Advanced Machine Learning Prediction & Coupon Generation")
+# Custom CSS for Professional Look
+st.markdown("""
+<style>
+    .reportview-container {
+        background: #f0f2f6;
+    }
+    .big-font {
+        font-size:24px !important;
+        font-weight: bold;
+    }
+    .card {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    .metric-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #333;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # Sidebar
-st.sidebar.header("Ayarlar")
-city = st.sidebar.selectbox("Şehir Seçiniz", ["Adana", "İstanbul", "İzmir", "Bursa", "Ankara", "Kocaeli", "Antalya", "Diyarbakır", "Şanlıurfa", "Elazığ"])
-target_date = st.sidebar.date_input("Tarih", datetime.date.today())
+with st.sidebar:
+    st.image("https://upload.wikimedia.org/wikipedia/tr/b/b6/T%C3%BCrkiye_Jokey_Kul%C3%BCb%C3%BC_logosu.png", width=100)
+    st.title("TJK AI Pro v2.2")
+    st.markdown("---")
+    city = st.selectbox("📍 Şehir Seçiniz", ["Adana", "İstanbul", "İzmir", "Bursa", "Ankara", "Kocaeli", "Antalya", "Diyarbakır", "Şanlıurfa", "Elazığ"])
+    target_date = st.date_input("📅 Tarih", datetime.date.today())
+    st.markdown("---")
+    run_btn = st.button("🚀 Analizi Başlat", type="primary", use_container_width=True)
+    st.info("Model: XGBoost Optimized\nLogic: Smart Coverage")
 
-run_btn = st.sidebar.button("🚀 Tahminleri Çalıştır", type="primary")
+# Main Content
+st.title(f"🏇 {city} Yarış Analizi")
+st.markdown(f"**Tarih:** {target_date.strftime('%d %B %Y')}")
 
 if run_btn:
-    with st.spinner(f"{city} için veriler analiz ediliyor..."):
-        # 1. Run Generator
+    with st.spinner(f"📡 {city} verileri çekiliyor ve yapay zeka tarafından analiz ediliyor..."):
+        # Run Generator
         gen = CouponGenerator()
-        # Ensure we pass datetime.date
         result = gen.process(city, target_date)
 
         if "error" in result:
             st.error(result['error'])
         else:
-            st.success("Analiz Tamamlandı!")
+            st.success("Analiz Başarıyla Tamamlandı!")
 
-            # Display Coupons
-            col1, col2 = st.columns(2)
-
+            # --- METRICS ROW ---
+            col1, col2, col3 = st.columns(3)
             with col1:
-                st.subheader("🎫 Ekonomik Kupon")
-                st.text_area("Eco", result['eco'], height=300)
-
+                st.metric(label="Banko Adayı", value=result['banko'].split('\n')[0].replace('Yok', '-'))
             with col2:
-                st.subheader("🛡️ Geniş Kupon")
-                st.text_area("Wide", result['wide'], height=300)
+                risk_val = "Yok" if result['risky'] == "Yok" else f"{len(result['risky'].split(','))} Ayak"
+                st.metric(label="Riskli Ayaklar", value=risk_val, delta_color="inverse")
+            with col3:
+                st.metric(label="Sistem Durumu", value="Online", delta="Güncel")
 
             st.divider()
 
-            # Display Banko / Risk
-            st.info(f"**Banko:** {result['banko']}")
-            if result['risky'] != "Yok":
-                st.warning(f"**Riskli Ayaklar:** {result['risky']}")
+            # --- COUPON SECTION ---
+            st.subheader("🎫 Kupon Tahminleri")
+
+            c1, c2 = st.columns(2)
+
+            with c1:
+                st.markdown("### 🟢 Ekonomik Kurgu")
+                st.text_area("Düşük Bütçeli & Güvenli", result['eco'], height=350)
+
+            with c2:
+                st.markdown("### 🔴 Geniş Kurgu")
+                st.text_area("Sürpriz Arayanlar İçin", result['wide'], height=350)
 
             st.divider()
 
-            # Display Detailed Analysis (Dataframe)
-            st.subheader("🔍 Detaylı Yarış Analizi")
+            # --- DETAILED ANALYSIS ---
+            st.subheader("🔍 Koşu Bazlı Detaylı Analiz")
 
             try:
-                # Fetch raw predictions for visualization
                 preds = get_predictions_for_date(target_date, city)
                 if preds is not None and not preds.empty:
-                    # Sort by Race No -> Win Prob
-                    preds = preds.sort_values(['race_no', 'prob_win'], ascending=[True, False])
-
-                    # Format
-                    display_cols = ['race_no', 'horse_name', 'jockey_name', 'prob_win', 'prob_place', 'prob_sp', 'agf', 'form_score']
-
-                    # Group by Race for tabs
+                    # Tabs for races
                     races = sorted(preds['race_no'].unique())
                     tabs = st.tabs([f"Koşu {r}" for r in races])
 
                     for i, r_no in enumerate(races):
                         with tabs[i]:
                             r_df = preds[preds['race_no'] == r_no].copy()
+                            r_df = r_df.sort_values('prob_win', ascending=False)
 
-                            # Highlight top picks
-                            st.write(f"**Koşu {r_no} Tahminleri**")
+                            # Formatting for display
+                            display_df = r_df.copy()
+                            display_df['Kazanma %'] = (display_df['prob_win'] * 100).map('{:.1f}%'.format)
+                            display_df['İlk 3 %'] = (display_df['prob_place'] * 100).map('{:.1f}%'.format)
+                            display_df['Sürpriz Skoru'] = (display_df['prob_sp'] * 100).map('{:.1f}'.format)
 
-                            # Custom formatting
-                            r_df['Kazanma %'] = (r_df['prob_win'] * 100).map('{:.1f}%'.format)
-                            r_df['Tabela %'] = (r_df['prob_place'] * 100).map('{:.1f}%'.format)
-                            r_df['Sürpriz %'] = (r_df['prob_sp'] * 100).map('{:.1f}%'.format)
+                            # Add Icons based on probability
+                            def get_status(row):
+                                if row['prob_win'] > 0.40: return "⭐ Favori"
+                                if row['prob_sp'] > 0.40: return "⚡ Sürpriz"
+                                return ""
+                            display_df['Durum'] = display_df.apply(get_status, axis=1)
 
-                            # Show as table
+                            # Style the dataframe
                             st.dataframe(
-                                r_df[['horse_name', 'jockey_name', 'Kazanma %', 'Tabela %', 'Sürpriz %', 'agf', 'form_score']],
+                                display_df[['horse_name', 'jockey_name', 'Durum', 'Kazanma %', 'İlk 3 %', 'Sürpriz Skoru', 'hp', 'form_score']],
                                 use_container_width=True,
-                                hide_index=True
+                                hide_index=True,
+                                column_config={
+                                    "Kazanma %": st.column_config.ProgressColumn(
+                                        "Kazanma İhtimali",
+                                        format="%s",
+                                        min_value=0,
+                                        max_value=100,
+                                    ),
+                                }
                             )
 
-                            # Charts
-                            st.bar_chart(r_df.set_index('horse_name')['prob_win'])
-
             except Exception as e:
-                st.warning(f"Detaylı tablo yüklenemedi: {e}")
+                st.warning(f"Detaylı analiz yüklenemedi: {e}")
 
-st.sidebar.markdown("---")
-st.sidebar.info("Model: XGBoost (Win/Place/Surprise)\nVersion: 2.1\nDev: Jules")
+else:
+    st.info("Analizi başlatmak için soldaki butonu kullanın.")
+    st.image("https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop", caption="Professional AI Racing Analysis")

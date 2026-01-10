@@ -41,36 +41,51 @@ def generate_coupon_for_race_group(race_data, race_nos):
         top1 = runners.iloc[0]
         win_prob = top1['prob_win']
 
+        # Calculate Gap
         gap = 0
         if N > 1:
             gap = win_prob - runners.iloc[1]['prob_win']
 
-        # --- ROBUST BANKO LOGIC ---
-        # Very Strict Banko
-        is_banko = (win_prob > 0.55) or (win_prob > 0.45 and gap > 0.25)
+        # --- NEW BANKO LOGIC ---
+        is_banko = (win_prob > 0.45 and gap > 0.15) or (win_prob > 0.50)
 
-        # Eco Selection (Top N)
+        # --- DYNAMIC SMART COVERAGE LOGIC ---
+
+        def select_smart(threshold, min_h, max_h):
+            selected = []
+            cum_prob = 0
+            for _, r in runners.iterrows():
+                selected.append(r['horse_name'])
+                cum_prob += r['prob_win']
+                if cum_prob > threshold and len(selected) >= min_h:
+                    break
+                if len(selected) >= max_h:
+                    break
+            return selected
+
+        # Eco Selection
         eco_sel = []
         if is_banko:
             eco_sel = [top1['horse_name']]
         else:
-            # Take Top 4 Horses (Static Coverage for Stability)
-            # If field size < 4, take all
-            take_n = min(4, N)
-            eco_sel = runners.iloc[:take_n]['horse_name'].tolist()
+            # Eco: ~55% coverage, min 2, max 3 (Cost reduction)
+            max_eco = 4 if win_prob < 0.20 else 3
+            eco_sel = select_smart(0.55, 2, max_eco)
 
-        # Wide Selection (Top N + Surprises)
+        # Wide Selection
         wide_sel = []
         if is_banko:
             wide_sel = [top1['horse_name']]
         else:
-            # Take Top 6 Horses
-            take_n_wide = min(6, N)
-            base_sel = runners.iloc[:take_n_wide]['horse_name'].tolist()
+            # Wide: ~85% coverage, min 3, max 6
+            max_wide = 6
+            base_sel = select_smart(0.85, 3, max_wide)
 
-            # Add ALL Potential Surprises (High SP Prob)
-            surprises = runners[runners['prob_sp'] > 0.4]['horse_name'].tolist()
+            # Add Strong Surprises (SP Prob > 40%)
+            surprises = runners[runners['prob_sp'] > 0.40]['horse_name'].tolist()
             wide_sel = list(set(base_sel + surprises))
+            if len(wide_sel) > 8:
+                wide_sel = wide_sel[:8]
 
         eco_legs.append(eco_sel)
         wide_legs.append(wide_sel)

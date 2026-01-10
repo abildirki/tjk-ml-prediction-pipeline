@@ -105,8 +105,8 @@ class CouponGenerator:
                 if N > 1:
                     gap = win_prob - runners[1]['prob_win']
                 
-                # Banko Condition: High Win Prob + Good Gap
-                is_banko = (win_prob > 0.55) or (win_prob > 0.45 and gap > 0.25)
+                # Banko Condition: Strong Favorite
+                is_banko = (win_prob > 0.50)
                 
                 if is_banko:
                     if banko_cand is None or win_prob > banko_cand['prob']:
@@ -116,26 +116,30 @@ class CouponGenerator:
                 if win_prob < 0.25:
                     seq_risky.append(f"Ayak {leg}")
 
-                # --- STATIC COVERAGE LOGIC (Robust) ---
-                # Eco: Top 4
+                # --- SIMPLIFIED TOP-N LOGIC ---
+                # Eco: Top 3 (Standard)
                 eco_sel = []
                 if is_banko:
                     eco_sel = [top1['horse_name']]
                 else:
-                    take_n = min(4, N)
+                    take_n = min(3, N)
                     eco_sel = [r['horse_name'] for r in runners[:take_n]]
                      
-                # Wide: Top 6 + Surprises
+                # Wide: Top 5 + Surprises
                 wide_sel = []
                 if is_banko:
                     wide_sel = [top1['horse_name']]
                 else:
-                    take_n_wide = min(6, N)
+                    take_n_wide = min(5, N)
                     base_sel = [r['horse_name'] for r in runners[:take_n_wide]]
 
-                    # Add Surprises (SP Prob > 40%)
+                    # Add Surprises (SP Prob > 40%) - Limit to max 2 extra
                     surprises = [r['horse_name'] + "⚡" for r in runners if r.get('prob_sp', 0) > 0.4]
+
                     wide_sel = list(set(base_sel + surprises))
+                    # Cap wide at 7
+                    if len(wide_sel) > 7:
+                        wide_sel = wide_sel[:7]
 
                 eco_coupon.append(eco_sel)
                 wide_coupon.append(wide_sel)

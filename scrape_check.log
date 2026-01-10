@@ -1,0 +1,114 @@
+Found existing data up to 2026-01-09. Resuming scrape from there...
+Scraping range: 2026-01-09 to 2026-01-10
+
+Processing 2026-01-09...
+2026-01-10 22:12:20 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+Found cities: ['İzmir  (5. Y.G.)', 'Bursa  (2. Y.G.)', 'Santa Anita Park ABD', 'Fairview Guney Afrika', 'Gulfstream Park ABD', 'Pakenham Avustralya']
+2026-01-10 22:12:20 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] İzmir: 7 races upserted.
+2026-01-10 22:12:21 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+DEBUG: CSV Lines: 101
+DEBUG: Found Race Header: 1. Kosu :   18.30
+DEBUG: Found Race Header: 2. Kosu :   19.00
+DEBUG: Found Race Header: 3. Kosu :   19.30
+DEBUG: Found Race Header: 4. Kosu :   20.00
+DEBUG: Found Race Header: 5. Kosu :   20.30
+DEBUG: Found Race Header: 6. Kosu :   21.00
+DEBUG: Found Race Header: 7. Kosu :   21.30
+  [Results] İzmir: Updated 58 entries.
+2026-01-10 22:12:22 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Bursa: 7 races upserted.
+2026-01-10 22:12:22 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+DEBUG: CSV Lines: 121
+DEBUG: Found Race Header: 1. Kosu :   14.00
+DEBUG: Found Race Header: 2. Kosu :   14.30
+DEBUG: Found Race Header: 3. Kosu :   15.00
+DEBUG: Found Race Header: 4. Kosu :   15.30
+DEBUG: Found Race Header: 5. Kosu :   16.00
+DEBUG: Found Race Header: 6. Kosu :   16.30
+DEBUG: Found Race Header: 7. Kosu :   17.00
+  [Results] Bursa: Updated 78 entries.
+2026-01-10 22:12:23 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Santa Anita Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisProgrami/09.01.2026-Santa%20Anita%20Park%20ABD-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:23 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Santa Anita Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisSonuclari/09.01.2026-Santa%20Anita%20Park%20ABD-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:23 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Fairview Guney Afrika: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisProgrami/09.01.2026-Fairview%20Guney%20Afrika-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:24 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Fairview Guney Afrika: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisSonuclari/09.01.2026-Fairview%20Guney%20Afrika-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:24 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Gulfstream Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisProgrami/09.01.2026-Gulfstream%20Park%20ABD-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:24 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Gulfstream Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisSonuclari/09.01.2026-Gulfstream%20Park%20ABD-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:24 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Pakenham Avustralya: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisProgrami/09.01.2026-Pakenham%20Avustralya-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:25 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Pakenham Avustralya: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-09/CSV/GunlukYarisSonuclari/09.01.2026-Pakenham%20Avustralya-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+
+Processing 2026-01-10...
+2026-01-10 22:12:26 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+Found cities: ['Adana  (4. Y.G.)', 'İstanbul  (3. Y.G.)', 'Santa Anita Park ABD', 'Gulfstream Park ABD', 'Kenilworth Guney Afrika', 'Cranbourne Avustralya', 'Sam Houston ABD']
+2026-01-10 22:12:26 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Adana: 8 races upserted.
+2026-01-10 22:12:27 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+DEBUG: CSV Lines: 115
+DEBUG: Found Race Header: 1. Kosu :   14.30
+DEBUG: Found Race Header: 2. Kosu :   15.00
+DEBUG: Found Race Header: 3. Kosu :   15.30
+DEBUG: Found Race Header: 4. Kosu :   16.00
+DEBUG: Found Race Header: 5. Kosu :   16.30
+DEBUG: Found Race Header: 6. Kosu :  ALİ SAMSA KARAMEHMET KOŞUSU 17.00
+DEBUG: Found Race Header: 7. Kosu :   17.30
+DEBUG: Found Race Header: 8. Kosu :   18.00
+  [Results] Adana: Updated 66 entries.
+2026-01-10 22:12:27 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] İstanbul: 8 races upserted.
+2026-01-10 22:12:28 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+DEBUG: CSV Lines: 142
+DEBUG: Found Race Header: 1. Kosu :   17.45
+DEBUG: Found Race Header: 2. Kosu :   18.30
+DEBUG: Found Race Header: 3. Kosu :   19.00
+DEBUG: Found Race Header: 4. Kosu :   19.30
+DEBUG: Found Race Header: 5. Kosu :   20.00
+DEBUG: Found Race Header: 6. Kosu :   20.30
+DEBUG: Found Race Header: 7. Kosu :   21.00
+DEBUG: Found Race Header: 8. Kosu :   21.30
+  [Results] İstanbul: Updated 93 entries.
+2026-01-10 22:12:29 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Santa Anita Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisProgrami/10.01.2026-Santa%20Anita%20Park%20ABD-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:29 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Santa Anita Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisSonuclari/10.01.2026-Santa%20Anita%20Park%20ABD-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:29 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Gulfstream Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisProgrami/10.01.2026-Gulfstream%20Park%20ABD-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:29 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Gulfstream Park ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisSonuclari/10.01.2026-Gulfstream%20Park%20ABD-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:30 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Kenilworth Guney Afrika: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisProgrami/10.01.2026-Kenilworth%20Guney%20Afrika-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:30 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Kenilworth Guney Afrika: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisSonuclari/10.01.2026-Kenilworth%20Guney%20Afrika-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:30 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Cranbourne Avustralya: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisProgrami/10.01.2026-Cranbourne%20Avustralya-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:30 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Cranbourne Avustralya: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisSonuclari/10.01.2026-Cranbourne%20Avustralya-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:30 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Program] Sam Houston ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisProgrami/10.01.2026-Sam%20Houston%20ABD-GunlukYarisProgrami-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
+2026-01-10 22:12:31 [debug    ] Starting call to 'tjk.http.client.TJKClient.get', this is the 1st time calling it.
+  [Results] Sam Houston ABD: CSV not found/Failed (Client error '404 Not Found' for url 'https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-01-10/CSV/GunlukYarisSonuclari/10.01.2026-Sam%20Houston%20ABD-GunlukYarisSonuclari-TR.csv'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404)
