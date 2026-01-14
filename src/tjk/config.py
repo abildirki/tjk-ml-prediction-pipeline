@@ -16,11 +16,8 @@ class Settings(BaseSettings):
     BASE_URL: str = "https://www.tjk.org"
     LOG_LEVEL: str = "INFO"
     
-    # DB Path - also move to App Data if strictly needed, but letting it stay hardcoded for now 
-    # unless requested. However, if EXE moves, DB path implies hard dependency on that path.
-    # The existing config has absolute path: r"sqlite:///C:\Users\Ali\Desktop\tjk\tjk_v2\tjk.db"
-    # This is fine for now on this specific machine.
-    DB_URL: str = r"sqlite:///C:\Users\Ali\Desktop\tjk\tjk_v2\tjk.db"
+    # DB Path - Relative path for portability
+    DB_URL: str = "sqlite:///tjk.db"
     
     CACHE_DIR: Path = APP_DIR / "cache"
     SNAPSHOT_DIR: Path = APP_DIR / "snapshots"
